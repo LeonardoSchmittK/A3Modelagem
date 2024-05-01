@@ -1,0 +1,33 @@
+@startuml
+
+left to right direction
+
+actor "Tio (ator primário)" as primario
+note bottom
+  Programa deve rodar localmente
+end note
+actor "Amigo (ator secundário)"
+
+  usecase  UC4 as "Acessar integração com Google agenda"
+
+rectangle "Sistema de Gerenciamento de\n Empréstimo de Ferramentas" {
+  usecase "Editar empréstimo" as UC1
+  usecase "Registrar empréstimo" as UC2
+  usecase "Acessar relatório de\nferramentas" as UC3
+  usecase "Acessar relatório de\nempréstimos ativos" as UC5
+  usecase "Acessar relatório de\n todos os empréstimos" as UC6
+  usecase "Cadastrar amigo " as UC7
+  usecase "Cadastrar ferramenta" as UC8
+  
+}
+
+primario --> UC1
+primario --> UC2
+primario --> UC3
+primario --> UC4
+primario --> UC5
+primario --> UC6
+primario --> UC7
+primario --> UC8
+
+@enduml
