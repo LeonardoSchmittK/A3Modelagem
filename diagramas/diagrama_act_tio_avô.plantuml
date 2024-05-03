@@ -1,0 +1,33 @@
+@startuml act
+start
+:insere os dados do amigo que ira emprestar;
+if(dados corretos?) then (não)
+:tratamento de erro;
+stop
+else (sim)
+if(amigo ainda tem algo emprestado?) then (sim)
+:exibe mensagem para o usuario informando o emprestimo;
+else (não)
+endif
+:escolhe a ferramenta para emprestimo;
+if(ferramenta está disponivel?) then (não)
+:verificar com que a ferramenta está;
+:adicionar na lista de espera;
+stop
+
+else (sim)
+fork
+:realizar emprestimo;
+fork again
+:contabilizar emprestimo no sistema;
+fork again
+:contabilizar emprestimo na conta do amigo que irá emprestar;
+
+end merge
+:dar a data de devolução;
+
+
+
+
+stop
+
