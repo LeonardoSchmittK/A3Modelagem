@@ -2,6 +2,10 @@
 
 Repositório para gerenciamento do final de semestre A3 da disciplina de Modelagem de Software;
 
+# Docs
+
+[Google docs do trabalho](https://docs.google.com/document/d/13t5fxLjs796Abc_DiRuM2xaejIt7Ic28IIytfmXazVo/edit)
+
 # Alunos
 
 - Leonardo Schmitt;
