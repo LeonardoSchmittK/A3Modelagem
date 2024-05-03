@@ -1,0 +1,28 @@
+@startuml
+
+partition "Fluxo alternativo - Acessar relatório" {
+    :Usuário clica em acessar relatório;
+
+    if (Acessar relatório empréstimos ativos) then (sim)
+        : Ação para acessar relatório de empréstimos ativos;
+    
+    elseif (Acessar relatório todos empréstimos) then (sim)
+        : Ação para acessar relatório de todos empréstimos;
+    else (não)
+    :Voltar;
+    detach
+    endif
+
+    if(Relatório carrega) then(sim)
+
+    : Acessar relatório escolhido;
+    detach
+    else (não)
+    :Mensagem tente mais tarde;
+         :Voltar;
+    detach
+    endif
+    
+}
+
+@enduml

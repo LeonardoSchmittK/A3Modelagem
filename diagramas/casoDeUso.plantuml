@@ -11,23 +11,23 @@ actor "Amigo (ator secundário)"
   usecase  UC4 as "Acessar integração com Google agenda"
 
 rectangle "Sistema de Gerenciamento de\n Empréstimo de Ferramentas" {
-  usecase "Editar empréstimo" as UC1
-  usecase "Registrar empréstimo" as UC2
-  usecase "Acessar relatório de\nferramentas" as UC3
-  usecase "Acessar relatório de\nempréstimos ativos" as UC5
-  usecase "Acessar relatório de\n todos os empréstimos" as UC6
+  usecase "Registrar empréstimo" as UC1
+  usecase "Editar empréstimo" as UC2
+  usecase "Acessar relatório" as UC3
+
   usecase "Cadastrar amigo " as UC7
   usecase "Cadastrar ferramenta" as UC8
-  
+  usecase "Acessar relatório de\nferramentas" as UC9
+  usecase "Acessar relatório de\ntodos os empréstimos" as UC10
 }
 
 primario --> UC1
 primario --> UC2
 primario --> UC3
 primario --> UC4
-primario --> UC5
-primario --> UC6
 primario --> UC7
 primario --> UC8
+UC9 ..|> UC3 : <<extend>>
+UC10 ..|> UC3 : <<extend>>
 
 @enduml

@@ -1,0 +1,14 @@
+História de usuário
+
+História de usuário:
+
+	Como uma pessoa que empresta muitas ferramentas, gostaria de poder gerenciar os empréstimos através de um sistema; 
+
+Pré-condição: 
+	
+	Existe o usuário (tio) desejoso de ter com facilidade as informações de empréstimos de suas ferramentas.
+
+Teste de aceitação:
+
+    O usuário
+
