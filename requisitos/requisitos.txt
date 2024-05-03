@@ -22,7 +22,7 @@ Requisitos Não Funcionais
 007RNF - O sistema deve considerar dias próximos como dias da semana. Caso hoje seja segunda-feira dia 12 e o empréstimo acabe dia 15, o sistema deve mostrar quinta-feira;
 008RNF - O sistema deve possuir cores sólidas e fontes firmes para facilitar leitura;
 009RNF - O sistema deve possuir cores de destaque (vermelho, laranja) para os alertas. Caso um amigo já não tenha devolvido uma ferramenta, que mostre visualmente em destaque antes de efetuar próximo empréstimo;
-010RF - O sistema deve possuir uma interface de fácil documentação;
+010RNF - O sistema deve possuir uma interface de fácil documentação;
 
 Regras de Negócio
 
