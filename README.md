@@ -24,10 +24,10 @@ Repositório para gerenciamento do final de semestre A3 da disciplina de Modelag
       e Referências. (0,5 pontos)
 
 - [x] Descreva os requisitos funcionais, não funcionais e regras de negócio.
-- [ ] Faça os users stories (0,5 pontos)
+- [x] Faça os users stories (0,5 pontos)
 - [ ] Para cada user story faça os testes de aceitação. (0,5 pontos)
-- [ ] Faça o Diagrama de Casos de Uso. (0,5 pontos)
-- [ ] Escolha 1 caso de uso e o descreva de forma completa (Fluxo base e alternativos). (0,5
+- [x] Faça o Diagrama de Casos de Uso. (0,5 pontos)
+- [x] Escolha 1 caso de uso e o descreva de forma completa (Fluxo base e alternativos). (0,5
       pontos)
 - [ ] Faça o Diagrama de Classes. (0,5 pontos)
 - [ ] Faça o diagrama de Atividades. (0,5 pontos)
