@@ -1,5 +1,8 @@
-@startuml act
+@startuml
+title Fluxo de caso de uso "cadastrar empréstimo"
+
 start
+
 :insere os dados do amigo que ira emprestar;
 if(dados corretos?) then (não)
 :tratamento de erro;

@@ -1,5 +1,4 @@
 @startuml
-
 left to right direction
 
 actor "Tio (ator primário)" as primario
